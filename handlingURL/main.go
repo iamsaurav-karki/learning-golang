@@ -8,7 +8,6 @@ import (
 const myurl string = "https://lco.dev:3000/learn?coursename=reactjs&paymentid=ghbj456ghb"
 
 func main() {
-
 	fmt.Println("Handling url")
 	fmt.Println(myurl)
 
