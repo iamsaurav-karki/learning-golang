@@ -21,7 +21,6 @@ func main() {
 	numRating, err := strconv.ParseFloat(strings.TrimSpace(input), 64)
 
 	if err != nil {
-
 		fmt.Println(err)
 	} else {
 		fmt.Println("Added 1 to the rating:", numRating+1)

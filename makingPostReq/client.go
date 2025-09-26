@@ -9,11 +9,6 @@ import (
 	"net/url"
 )
 
-type Person struct {
-	Name string `json:"name"`
-	Age  int    `json:"age"`
-}
-
 func postJSON() error {
 	p := Person{Name: "Saurav", Age: 54}
 	b, err := json.Marshal(p)
@@ -71,7 +66,7 @@ func postForm() error {
 	return nil
 }
 
-func main() {
+func runClient() {
 	if err := postJSON(); err != nil {
 		fmt.Println("postJSON err:", err)
 	}

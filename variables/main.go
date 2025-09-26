@@ -32,7 +32,6 @@ func main() {
 	fmt.Println(novalue)
 
 	// no var style
-
 	name := "saurav karki"
 	fmt.Println(name)
 
